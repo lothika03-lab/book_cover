@@ -29,6 +29,57 @@ Insert the images in their appropriate places.
 Publish the website in the LocalHost.
 
 # PROGRAM:
+```
+<html>
+    <head>
+        <title>bookcover</title>
+        <style>
+        .text {
+            position: absolute;
+            color: beige;
+            font-size: 80px;
+            font-style: italic;
+            top: 28%;
+            left: 43%;
+        }
+        .border{
+            position: absolute;
+            border:5px solid brown;
+            height:91.8%;
+            width:30%;
+            left: 34.8%;
+            bottom: 3.8%;
+        }
+        .quote{
+            position: absolute;
+            font-size: 20px;
+            top:55%;
+            text-align: center;
+            left: 35%;
+            font-style: italic;
+        }
+        .tp{
+            position: absolute;
+            font-size: 20px;
+            top:5%;
+            text-align: center;
+            left: 40%;
+            font-style: italic;
+        }
+        </style>
+    </head>
+    <body style="color: beige;">
+        <center>
+            <img src="../static/bookcover.png" height="100%">
+        </center>
+        <div class="border"></div>
+        <div class="tp">"The Intenational Best Seller Of 2025"</div>
+        <div class="text"> Silent<br>Echoes</div>
+        <div class="quote"><br><br>"The truth doesn't disappear just because it isn't spoken.<br>It waits in the shadows,<br>growing louder with every passing year."</div>
+    </body>
+    </html>
+```
 # OUTPUT:
+![alt text](<Screenshot (62).png>)
 # RESULT:
 The program for designing book front cover page using HTML and CSS is completed successfully.
